@@ -20,7 +20,7 @@ public class ColaCar extends ApplicationAdapter {
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
-		img = new Texture("badlogic.jpg");
+		img = new Texture("road.png");
 		
 		String url = "jini://*/*/myGrid";
         System.out.println("Connecting to data grid " + url);
